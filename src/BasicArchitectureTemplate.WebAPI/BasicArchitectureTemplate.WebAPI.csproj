@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasicArchitectureTemplate.DataAccess\BasicArchitectureTemplate.DataAccess.csproj" />
+    <ProjectReference Include="..\BasicArchitectureTemplate.Models\BasicArchitectureTemplate.Models.csproj" />
+    <ProjectReference Include="..\BasicArchitectureTemplate.Services.Contracts\BasicArchitectureTemplate.Services.Contracts.csproj" />
+    <ProjectReference Include="..\BasicArchitectureTemplate.Services.Implementation\BasicArchitectureTemplate.Services.Implementation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.0.0" />
+  </ItemGroup>
+</Project>
