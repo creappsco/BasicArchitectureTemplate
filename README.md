@@ -8,10 +8,7 @@ We create sample unit tests for your future implementations.
 
 ## Getting Started
 
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+throw new NotImplementedException("");
 
 ## Build and Test
 
